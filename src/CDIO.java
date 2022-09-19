@@ -1,6 +1,7 @@
 public class CDIO {
     public static void main(String[] args){
         System.out.println("hello cdio");
+        System.out.println("Hej med jer");
 
 
 
