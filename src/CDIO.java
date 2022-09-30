@@ -8,13 +8,13 @@ public class CDIO {
     int totalSpillerB=0;
     int randomNummer=0;
        while(totalSpillerA <=40 || totalSpillerB<=40) {
-            randomNummer = ranNum.nextInt(6) + 1;
+            randomNummer = ranNum.nextInt(6)+1;
             totalSpillerA = totalSpillerA + randomNummer;
             System.out.println(randomNummer + " ");
             randomNummer = ranNum.nextInt(6) + 1;
             totalSpillerB = totalSpillerB + randomNummer;
             System.out.println(randomNummer);
-            System.out.print(" ");
+            System.out.println(" ");
         }
         if(totalSpillerA > totalSpillerB) {
             System.out.println("");
