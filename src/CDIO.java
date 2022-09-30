@@ -7,7 +7,7 @@ public class CDIO {
     int totalSpillerA=0;
     int totalSpillerB=0;
     int randomNummer=0;
-       while(totalSpillerA <=50 || totalSpillerB<=50  ) {
+       while(totalSpillerA <=40 || totalSpillerB<=40) {
             randomNummer = ranNum.nextInt(6) + 1;
             totalSpillerA = totalSpillerA + randomNummer;
             System.out.println(randomNummer + " ");
